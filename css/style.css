@@ -1,0 +1,546 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'open sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width: 100%;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/*CABECALHO*/
+
+/* TELA DO HOME */
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #1b90d4;
+}
+
+.logo a{
+    width: 80px;
+    height: 48px;
+    float: left;
+    background: url(.../img/icone.png);
+    font-size: 0;
+
+}
+
+.cabecalho form{
+width: 30%;
+float: right;
+}
+
+.cabecalho form input[type="search"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #1574aa;
+    cursor: pointer;
+
+}
+
+/* menu */
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+    color: bisque;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+    font-size: 19px;
+}
+
+.menu li a:hover{
+    color: #fff;
+    font-size: 21px;
+    border: 1px solid royalblue;
+    padding: 0;
+}
+
+/* SOCIAL-ICONS*/
+
+.social-icons{
+    float: right;
+   
+}
+
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+
+.btn-facebook:hover{
+      color: #3b5998;
+}
+
+.btn-google:hover{
+     color: #d73d32;
+}
+
+.btn-twitter:hover{
+   color: #00acee;
+}
+
+/* PRINCIPAL */
+.PRINCIPAL{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+.sobre h2{
+    margin-bottom: 15px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.onde-estamos{
+    border-radius: 10px;
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    }
+
+.onde-estamos p{
+    color: #000000;
+}
+
+
+
+.onde-estamos li{
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.onde-estamos iframe{
+ width: 100%;
+ height: 250px;
+ margin: 20px 0px;
+}
+
+.onde-estamos i{
+    margin-right: 8px;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: #000000;
+    padding: 50px 8%;
+}
+
+.newsletter h3{
+font-size: 1.8em;
+color: #fff;
+}
+
+.newsletter p{
+    font: 1.2em;
+    color: #fff;
+}
+
+
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+
+.newsletter button{
+    width: 18%;
+    float: right;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding:20px 8%;
+}
+
+.rodape p{
+    color: #fff;
+}
+/* TELA DE CONTATOS */
+
+.formulario{
+    text-align: center;
+    font-size: 20px;
+    font-family: verdana;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #0000004f;
+    background-image: url(../img/fundo2.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 150px;
+}
+
+.inserir:hover{
+    color: #000000;
+    font-size: 20px;
+    border: 3px solid #000000;
+    padding: 0;
+}
+
+.btn-whatsapp{
+    color: rgb(106, 170, 10);
+}
+
+.btn-whatsapp:hover{
+    color: rgb(106, 170, 10);
+    font-size: 20px;
+    border: 3px solid rgb(106, 170, 10);
+    padding: 0;
+}
+
+
+.titulo{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: center;
+}
+
+.texto{
+    color: #000000;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: verdana;
+    text-align: center;
+}
+
+.forms{
+    color: #000000;
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: center;
+}
+
+.inserir{
+    border-radius: 5px;
+}
+
+
+/* TELA DE  SERVIÇOS */
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, customers th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+  .customers tr:hover{
+    background-color: #ddd;
+}
+  
+.th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #1b90d4;
+    color: white;
+  }
+
+  .dias:hover{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: 1px solid rgb(2, 2, 2);
+    padding: 0;
+  }
+
+  .horas:hover{
+    color: rgb(2, 2, 2);
+    font-size: px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+  }
+
+  .fechado:hover{
+    color: rgb(2, 2, 2);
+    font-size: px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+  }
+  .horas{
+    color:#04AA6D;
+  }
+  .fechado{
+    color: red;
+  }
+
+  td{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  table, th, td {
+    box-shadow: 4px 4px #00000041;
+    float: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+table{
+    width: 80%;
+    margin-left: 90px;
+    box-shadow: 4px 4px #00000041;
+    border-radius: 5px;
+    margin-bottom: px;
+    margin-top: 40px;
+    float: center;
+
+}
+
+.node{
+    color: #000000;
+    font-size: 22px;
+    font-family: verdana;
+    text-align: left;
+    margin-top: 40px;
+    float: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.titulo2{
+    color: #000000;
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: left;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    
+}
+
+.julius{
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 4px 4px #00000044 ;
+    margin-right: 40px;
+    margin-top: 60px;
+    
+}
+
+.atendimento{
+    color: #000000;
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.lista{
+    color: #000000;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: verdana;
+    text-align: left;
+    margin-left: 500px;
+    margin-bottom: 10px;
+
+}
+
+.listas{
+    margin-top: 60px;
+
+}
+
+/* PRODUTOS */
+
+.categorias{
+    color: #000000;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: center;
+    margin-bottom: 50px; 
+    animation: pulsate 1.5s infinite alternate;
+    
+    }
+
+.perifericos{
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: verdana;
+    text-align: center;
+    background-image: url(../img/perifericos.jpg);
+    border-radius: 15px;
+    padding: 30px 30px;
+    margin-left: 330px;
+    margin-right: 330px;
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #bc13fe,
+    0 0 80px #bc13fe,
+    0 0 90px #bc13fe,
+    0 0 100px #bc13fe,
+    0 0 150px #bc13fe;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 20px 20px;;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe; 
+
+    }
+
+ .perifericos:hover{
+    color: #ffffff;
+    font-size: 25px;
+    border: 3px solid #ffffff;
+    padding: 0;
+    padding: 30px 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 25px 25px;;
+    box-shadow:
+     0 0 .2rem #fff,
+     0 0 .2rem #fff,
+     0 0 2rem #bc13fe,
+     0 0 0.8rem #bc13fe,
+     0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe; 
+}
+
+.hardware{
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: verdana;
+    text-align: center;
+    background-image: url(../img/hardware.jpg);
+    border-radius: 15px;
+    padding: 30px 30px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.hardware:hover{
+    color: #ffffff;
+    font-size: 23px;
+    border: 3px solid #ffffff;
+    padding: 0;
+    padding: 30px 30px;
+}
+
+.office{
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: verdana;
+    text-align: center;
+    padding: 5px 5px;
+    background-image: url(../img/office.jpg);
+    background-size: 100%;
+    border-radius: 15px;
+    padding: 30px 30px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.office:hover{
+    color: #ffffff;
+    font-size: 23px;
+    border: 3px solid #ffffff;
+    padding: 30px 30px;
+}
+
+.teclado{
+    background-color: #222121;
+    padding: 30px 50px 180px 50px;
+    border-radius: 10px;
+}
+
+.teclado:hover{
+
+}
